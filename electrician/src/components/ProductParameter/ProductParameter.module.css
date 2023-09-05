@@ -1,0 +1,83 @@
+#product_parameter {
+    width: 320px;
+}
+.parameter {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    padding-top: 10px
+}
+
+.parameter li {
+    display: table;
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding: 5px 0
+}
+
+.parameter li:nth-child(n+11) {
+    display: none
+}
+
+#append_param li:nth-child(n+11){
+    display: block
+}
+
+.parameter li:last-child {
+    border-bottom: 0
+}
+
+.parameter li:nth-child(n+10) {
+    border-bottom: 0
+}
+
+.parameter li span {
+    display: table-cell;
+    width: 40%;
+    vertical-align: top;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #666
+}
+
+.parameter li i {
+    font-style: normal;
+    display: block
+}
+
+.parameter li div {
+    display: table-cell;
+    width: auto;
+    vertical-align: top;
+    padding: 6px 5px;
+    font-size: 14px;
+    color: #333
+}
+
+.parameter li a {
+    color: #0b5690
+}
+.showall_parameter .parameter li:nth-child(n+11) {
+    display: table;
+}
+
+.viewparameterfull {
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    margin: 10px 0 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: var(--dark-color);
+    background: #fff;
+    border: 1px solid var(--dark-color);
+    border-radius: 4px
+}
+
+.viewparameterfull:hover {
+    background: var(--dark-color);
+    color: #fff
+}

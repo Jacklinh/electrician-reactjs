@@ -1,0 +1,20 @@
+.btn {
+    padding: 10px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    appearance: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn_dark {
+    background-color: var(--dark-color);
+}
+.btn svg {
+    margin-right: 10px;
+}

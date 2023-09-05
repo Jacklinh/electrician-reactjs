@@ -1,0 +1,82 @@
+.main_wrapper .col_main{
+    width: 840px;
+}
+.main_wrapper .col_sidebar{
+    width: calc((100% - 880px));
+    margin-left: 40px;
+}
+.section_subtitle{
+    color: var(--dark-color);
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.main_wrapper .col_sidebar .sections{
+    max-width: 100%;
+}
+.main_wrapper .col_sidebar section{
+    margin: 30px 0;
+}
+/* product item */
+.product_wrapper{
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.product_wrapper .product_item {
+    position: relative;
+}
+
+.product_wrapper .product_item .discount{
+    position: absolute;
+    padding:2px 10px;
+    top: 10px;
+    right: 10px;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.product_wrapper .product_item img{
+    width: 100%;
+    height: auto;
+}
+
+.product_wrapper .product_item h3{
+    color: var(--dark-color);
+    font-size: 16px;
+    margin: 10px 0;
+    min-height: 54px;
+}
+
+.product_wrapper .product_item .price strong{
+    color: #d0021c;
+}
+
+/* product detail */
+.product_description {
+    display: block;
+    overflow: hidden;
+    padding: 0 0;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.product_description h2, 
+.product_description h3, 
+.product_description h4, 
+.product_description h5 {
+    font-weight: 700;
+    margin: 20px auto;
+}
+.product_description p,
+.product_description div, 
+.product_description h2, 
+.product_description h3, 
+.product_description h4 {
+    margin: 10px auto;
+    font-size: 16px;
+    color: #333;
+    line-height: 28px;
+}

@@ -67,8 +67,8 @@ textarea {
 }
 button, .btn {
     padding: 10px;
-    background-color: var(--main-color);
-    color: #fff;
+    background-color: var(--main-color) !important;
+    color: #ffffff;
     font-weight: 600;
     border: none;
     border-radius: 3px;

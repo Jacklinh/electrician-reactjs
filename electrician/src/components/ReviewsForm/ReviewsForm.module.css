@@ -1,0 +1,155 @@
+.reviews_form {
+    margin: 20px 0;
+}
+.reviews_form textarea {
+    width: 100%;
+}
+.reviews_form .inline_controls>*+*{
+    margin-left: 10px;
+}
+.reviews_form .inline_controls button{
+    width: 100px;
+}
+.reviews_form .inline_controls input{
+    width: calc((100% - 120px) / 3);
+}
+/* reviews */
+.comment_box .crt {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+.comment_box.crt {
+    height: 120px;
+    box-sizing: border-box;
+}
+.comment_box .crt .lcrt {
+    width: 17%;
+    float: left;
+    border-right: solid 1px #eee;
+    padding-top: 31px;
+    height: 90%;
+    text-align: center;
+     display: inline-block;
+    box-sizing: border-box;
+    margin: 5px 10px 5px 5px;
+}
+.comment_box .crt .lcrt i,
+ .comment_box .crt .rcrt span.t i{color: #fd9727; text-align: center; display: inline-block;}
+.comment_box .crt .rank_start{
+    background-position:0 0;
+    width: 12px;
+}
+.comment_box .crt .number_star {
+    font-size: 18px;
+    display: block;
+}
+.comment_box .crt .rank_text {padding: 5px 0;}
+.comment_box .crt .lcrt b {
+    font-size: 40px;
+    color: #fd9727;
+    line-height: 40px;
+    display: block;
+}
+.comment_box .crt .rcrt {
+    font-size: 13px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 45%;
+    float: left;
+    display: inline-block;
+    border-right: solid 1px #eee;
+}
+.comment_box .crt .rcrt .r {
+    padding: 1px 20px;
+}
+.comment_box .crt .rcrt span.t {
+    display: inline-block;
+    color: #333;
+}
+.comment_box .crt .rcrt .bgb {
+    width: 55%;
+    background-color: #e9e9e9;
+    height: 5px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.comment_box .crt .rcrt .bgb .bgb_in {
+    background-color: #f4b301;
+    height: 5px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.comment_box .crt .rcrt span.c {
+    display: inline-block;
+    color: #212121;
+    cursor: pointer;
+}
+.comment_box .crt .bcrt {
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    width: calc((100% - 65%))
+}
+.comment_box .crt .bcrt button{
+    margin-top: 50px;
+}
+.stars_bar {
+    margin: auto;
+}
+.stars_bar i:hover {
+    color: #f4b301;
+}
+
+.comment_list {
+    margin-top: 10px;
+}
+.comment_list li {
+    padding: 5px 0;
+    list-style: none;
+}
+.iconcom_user {
+    background-color: #212121;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 7px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    width: 24px;
+}
+.comment_list li .name {
+    font-size: 14px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+.comment_list li .talk {
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+.btnreply {
+    color: #0b5690;
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.comment_list li .talk .time {
+    font-size: 12px;
+    color: #b10000;
+}
+
+.call_form {
+    margin-top: 20px;
+}
+.call_form p{
+    margin-bottom: 20px;
+}
